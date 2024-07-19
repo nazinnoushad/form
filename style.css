@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333; /* Dark background color */
+    color: #f0f0f0; /* Light text color */
+}
+
+.container {
+    background-color: #444; /* Slightly lighter dark background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Darker shadow for better contrast */
+    width: 100%;
+    max-width: 600px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 10px;
+    color: #f0f0f0; /* Light text color for labels */
+}
+
+input {
+    margin-top: 5px;
+    padding: 8px;
+    border: 1px solid #555; /* Darker border color */
+    border-radius: 4px;
+    background-color: #666; /* Dark background for inputs */
+    color: #f0f0f0; /* Light text color for inputs */
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745; /* Green background */
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+#dataList {
+    margin-top: 20px;
+}
+
+.data-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #555; /* Darker border color for items */
+    background-color: #555; /* Darker background for data items */
+    color: #f0f0f0; /* Light text color for data items */
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red background */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Darker red on hover */
+}
+
+.hidden {
+    display: none;
+}
+
+.toggle-button {
+    margin-top: 20px;
+}
